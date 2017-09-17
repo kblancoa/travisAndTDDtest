@@ -1,0 +1,22 @@
+{
+  "name": "startingWithTDD",
+  "version": "1.0.0",
+  "description": "",
+  "main": "change.js",
+  "scripts": {
+    "test": "istanbul cover test.js",
+    "open-coverage": "open ./coverage/lcov-report/index.html",
+    "start": "live-server --port=8000",
+    "docs": "jsdoc change.js",
+    "open-docs": "open ./out/global.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "live-server": "^1.2.0",
+    "qunit-tap": "^1.5.1",
+    "qunitjs": "^2.4.0"
+  }
+}
