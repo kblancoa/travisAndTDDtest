@@ -1,7 +1,7 @@
 {
   "name": "startingWithTDD",
   "version": "1.0.0",
-  "description": "",
+  "description": "testing TDD with CI",
   "main": "change.js",
   "scripts": {
     "test": "istanbul cover test.js",
