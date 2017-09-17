@@ -13,7 +13,7 @@ function getChange (totalPayable, cashPaid) {
     var coins = [200, 100, 50, 20, 10, 5, 2, 1];
 
     if(totalPayable === cashPaid){
-        return null;
+        return returnCoins;
     }
 
     var change = cashPaid -totalPayable ;
